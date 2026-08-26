@@ -1,4 +1,4 @@
-# 🧪 EXPERIMENT 02 — Ex.No:2 Recover deleted or damaged files from a storage device using Test Disk
+# 🧪 EXPERIMENT 02 — Recover deleted or damaged files from a storage device using Test Disk
 
 ---
 
