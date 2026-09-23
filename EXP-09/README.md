@@ -168,6 +168,26 @@ Mapping network sockets directly to PIDs enables investigators to correlate netw
 
 ---
 
+### Step 6 — Windows Security Quick Scan Verification
+
+The host was checked in the Windows Security interface to confirm whether active threats were present after the process inspection workflow.
+
+![Figure 6: Windows Security current threats status and scan summary](screenshots/06-windows-security-no-threats.png)
+
+**Observation:**
+The visible Windows Security panel showed:
+- `Current threats`
+- `No current threats.`
+- `Last scan: 23-09-2026 19:46 (quick scan)`
+- `0 threats found.`
+- `Scan lasted 1 minutes 54 seconds`
+- `33576 files scanned.`
+
+**Forensic Significance:**
+The screenshot is evidence of a clean local antivirus result for the host at the time of capture. It does not show any suspicious process or malicious detection event; it records only the Windows Security quick-scan state visible in the UI.
+
+---
+
 ## 🔎 Observations
 
 1. Process Explorer 64-bit successfully initialized under user `SURYA\sekhar` on host `SURYA` with full administrative privileges.

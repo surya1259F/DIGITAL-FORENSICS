@@ -206,6 +206,30 @@ Hashing the evidence before and after analysis guarantees that file bitstreams w
 
 ---
 
+### Step 7 — Single-Image StegExpose Analysis on the Controlled Baseline Images
+
+To validate the detector against the controlled clean images without relying on the benchmark folder, a single-image StegExpose evaluation was executed directly against `images/clean.png` and `images/test.png`.
+
+```bash
+cd ~/DIGITAL-FORENSICS/EXP-08
+java -jar StegExpose/StegExpose.jar images/clean.png
+java -jar StegExpose/StegExpose.jar images/test.png
+```
+
+![Figure 7: Single-image StegExpose evaluation on the controlled PNG images](screenshots/07-single-image-analysis.png)
+
+**Observation:**
+The terminal output visibly shows:
+- `clean.png -> false`
+- `Fusion = 0.0`
+- `test.png -> false`
+- `Fusion = 0.0`
+
+**Forensic Significance:**
+The actual visible score is `0.0` for both controlled images. Under the laboratory threshold interpretation, a score of `0.0` indicates no hidden-data signal and no steganographic content was indicated by the single-image scan.
+
+---
+
 ## 🔎 Observations
 
 1. StegExpose successfully compiled and executed on OpenJDK JRE across both controlled and benchmark datasets.
