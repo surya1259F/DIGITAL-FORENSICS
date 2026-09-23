@@ -14,7 +14,7 @@ Welcome to the **Digital Forensics Laboratory** portfolio repository. This repos
 | [EXP-04](EXP-04/README.md) | **Ex. No 4: Analyze email headers and detect email spoofing using MHA (Mail Header Analyzer)** | Mail Header Analysis / Gmail / WHOIS | ✅ Completed |
 | [EXP-05](EXP-05/README.md) | **Ex. No 5 Use Autopsy to create a case and import evidence** | Autopsy Forensic Browser / Sleuth Kit | ✅ Completed |
 | [EXP-06](EXP-06/README.md) | **Forensic Analysis and Deleted File Recovery Using The Sleuth Kit (TSK)** | The Sleuth Kit (TSK) Suite | ✅ Completed |
-| EXP-07 | **Mobile Device Forensics Acquisition & Analysis** | Android Debug Bridge (ADB) / AFLogical | ⏳ Pending |
+| [EXP-07](EXP-07/README.md) | **Mobile Device Forensics Acquisition & Analysis** | Android Debug Bridge (ADB) / AFLogical | ✅ Completed |
 | [EXP-08](EXP-08/README.md) | **Steganography Detection and Quantitative Steganalysis Using StegExpose** | StegExpose / ImageMagick | ✅ Completed |
 | [EXP-09](EXP-09/README.md) | **Live Process Analysis and Memory Inspection Using Microsoft Sysinternals Process Explorer** | Sysinternals Process Explorer | ✅ Completed |
 | [EXP-10](EXP-10/README.md) | **Static Binary Analysis and Reverse Engineering Using NSA Ghidra** | NSA Ghidra SRE Framework | ✅ Completed |
@@ -88,7 +88,10 @@ Digital-Forensics-Laboratory/
 ├── EXP-06/
 │   ├── README.md
 │   └── screenshots/
-│
+│---EXP-07/
+│   ├── README.md
+│   └── screenshots
+
 ├── EXP-08/
 │   ├── README.md
 │   └── screenshots/
