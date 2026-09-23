@@ -88,9 +88,10 @@ Digital-Forensics-Laboratory/
 ├── EXP-06/
 │   ├── README.md
 │   └── screenshots/
-│---EXP-07/
+├── EXP-07/
 │   ├── README.md
-│   └── screenshots
+│   └── screenshots/
+│
 
 ├── EXP-08/
 │   ├── README.md
